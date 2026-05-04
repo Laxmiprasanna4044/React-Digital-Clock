@@ -1,0 +1,39 @@
+.main-container{
+  background-color:aqua;;
+  height:100vh;
+  width:100vw;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  border-radius:10px;
+
+}
+.heading{
+  font-size:30px;
+  color:rgb(248, 51, 84);
+  font-family:"Roboto";
+
+}
+.image{
+  height:200px;
+  width:200px;
+}
+.time{
+  font-size:30px;
+  color:rgb(243, 59, 89);
+  font-family:"Roboto";
+}
+.button{
+  padding:10px 20px;
+  font-size:20px;
+  color:white;
+  background-color:blue;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+}
+button:hover{
+  background-color:darkblue;
+  transition:all 0.3s ease;
+}
